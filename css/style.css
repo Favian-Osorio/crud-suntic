@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@300&family=Yeon+Sung&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #EDF1D6;
+}
+
+#div-titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+}
+
+#div-formulario{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#div-formulario #div-archivo {
+    padding: 15px;
+    width: 40%;
+    height: 250px;
+    background-color: #9DC08B;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 10px;
+    margin: 15px 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#div-formulario #div-archivo h2 {
+    font-weight: 300;
+    font-size: 2em;
+    color: #609966;
+}
+
+#div-formulario #div-archivo form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+    
+
+#div-formulario #div-archivo label {
+    margin: 10px;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 14px;
+}
+
+#div-formulario #div-archivo form input{
+    margin: 10px ;
+    margin-top: -5px;
+}
+
+#btn-agregar{
+    margin: 10px;
+    margin-top: 25px;
+}
+
+#div-pdf{
+    width: 100%;
+    margin: 15px 15px;
+    background-color: #9DC08B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+#div-pdf h2{
+    color: #40513B;
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 2em;
+}
+
+#div-pdf p {
+    margin: 10px 0;
+    font-size: 1em;
+}
